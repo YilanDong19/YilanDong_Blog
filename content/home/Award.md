@@ -18,38 +18,7 @@ date_format = "Jan 2006"
 #   Leave `date_end` empty if it's your current employer.
 #   Begin/end multi-line descriptions with 3 quotes `"""`.
 
-[[experience]]
-  title = "Postgraduate individual project: The Segmentation of Fetal Cardiovascular Magnetic Resonance Imaging (August 2020)"
-  company = "King's College London"
-  company_url = "https://www.kcl.ac.uk/"
-  location = "London, UK"
-  date_start = "2020-06"
-  date_end = "2020-09"
-  description = """
-  The result :
-  
-  In this report, we proposed two methods for the fetal cardiovascular motion-corrected MRI image segmentation of the fetal heart and vessels. They are 
-  * A 3D U-Net with applied to images non-rigidly co-aligned with an anatomical template 
-  * A modified Gaussian Mixture Model (GMM) which uses an atlas of fetal cardiac anatomy as prior information.
-  
-  The reorientation and registration required for pre-processing are the main bottlenecks for both algorithms. According to the P value of T-test in experiment B, we can’t decide which one is better. But both of them showed better results than previous experiments, segmented more vessel volume of fetal heart.
 
-  Experimental process :
-  
-  In this experiment, we tested whether new U-Net and HighRes-net can successfully segment vessels of fetal heart, and studied the effects of different model structures, optimizers, augmentations, loss functions, low and high resolution on the results.
-There are two kinds labels, one is the whole heart label (heart and vessels), the second one is only the vessels labels. The vessels labels are used when we want our model to only focus on vessels.
-
-  1. Trained U-Net and HighRes-net on the whole cardiac segmentation. U-net achieved Dice score 0.897, and HighRes-net is 0.885. But unfortunately, most vessels are not segmented.
-  2. We hypothesized, that failure of deep networks to segment small cardiac structures is due to the high anatomical variability and relatively small training set. We have therefore included a pre-processing registration step, to non-rigidly align the images to the reference template.  
-  3. Trained U-Net with image registration. The average dice score is 0.925. Compared with the above experimental results, it has only increased by about 2%, but U-Net with image registration has successfully segmented small cardiac vessels. 
-  4. According to the T-test result of U-Net and U-Net with registration, P value < 0.01, which means that there is a significant difference in the performance for these two experiments. Image registration did reduce the anatomical variability of vessels, and improved the segmentation results
-  5. Applied modified GMM with probabilistic atlas to 10 samples in the validation set, and the average dice score of GMM is 0.935.
-  
-  Conclusion:
-we applied multiple segmentation models to do fetal cardiovascular magnetic resonance imaging segmentation, explored the reasons why models such as U-Net and HighRes-net are not effective in segmenting small vessels in images. We found that data pre-processing steps such as reorientation and image registration improved the image quality. They made the models‘ dice scores higher and more vessels appeared in the output. In conclusion, reorientation and image registration can further improve the results of fetal cardiac segmentation and enable small organs to be segmented.
-
-
-"""
 [[experience]]
   title = "Graduation project: A classifier for autism prediction based on the combination of phenotypic information and the features of brain networks"
   company = "Northeastern University"
