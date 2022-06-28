@@ -1,39 +1,40 @@
 ---
 # Display name
-title: Nelson Bighetti
+title: Yilan Dong
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position/tagline
-role: Professor of Artificial Intelligence
+role: PhD student in KCL
 
 # Organizations/Affiliations to show in About widget
 organizations:
-  - name: Stanford University
-    url: https://www.stanford.edu/
+  - name: King's College London
+    url: https://www.kcl.ac.uk/
 
 # Short bio (displayed in user profile at end of posts)
-bio: My research interests include distributed robotics, mobile computing and programmable matter.
+bio: My research interests include medical image analysis, deep learning neural network and interpretation methods.
 
 # Interests to show in About widget
 interests:
-  - Artificial Intelligence
-  - Computational Linguistics
-  - Information Retrieval
+  - Autism
+  - Deep Neural Network
+  - Interpretation Methods
+  - Segmentation
 
 # Education to show in About widget
 education:
   courses:
-    - course: PhD in Artificial Intelligence
-      institution: Stanford University
-      year: 2012
-    - course: MEng in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2009
-    - course: BSc in Artificial Intelligence
-      institution: Massachusetts Institute of Technology
-      year: 2008
+    - course: Doctor of Philosophy in Biomedical Engineering And Imaging Science Research FT (current)
+      institution: King's College London
+      year: 2020~
+    - course: Master Degree in Healthcare Technologies MSc (Artificial Intelligence direction)
+      institution: King's College London
+      year: 2019-2020
+    - course: Bachelor Degree in Biomedical Engineering
+      institution: Northeastern University (China)
+      year: 2015-2019
 
 # Social/Academic Networking
 # For available icons, see: https://wowchemy.com/docs/getting-started/page-builder/#icons
@@ -64,14 +65,12 @@ social:
 #   link: uploads/resume.pdf
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: ''
+email: "yilan.dong@kcl.ac.uk"
 
 # Highlight the author in author lists? (true/false)
 highlight_name: true
 ---
 
-Nelson Bighetti is a professor of artificial intelligence at the Stanford AI Lab. His research interests include distributed robotics, mobile computing and programmable matter. He leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+I am a second year PhD student at King's College London. Basically, my project is to develop an interpretable machine learning framework to uncover the early origions of neural developmental disorders. In the first year of PhD, I did a benchmark on ABIDE fMRI dataset, which is one of the biggest public databases on autism. Five of the most widely used or best performing models was applied to this experiment. Our results show that all the tested models have the similar results, which means that it is probably the different evaluation pipelines rather than different machine learning models that leads to the variation of accuracy in the published literature. In the second year,  I tested the sMRI data of ABIDE, and tried to combine sMRI and fMRI to further improve the model performance.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
