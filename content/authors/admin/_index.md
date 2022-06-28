@@ -71,6 +71,10 @@ email: "yilan.dong@kcl.ac.uk"
 highlight_name: true
 ---
 
-I am a second year PhD student at King's College London. Basically, my project is to develop an interpretable machine learning framework to uncover the early origions of neural developmental disorders. In the first year of PhD, I did a benchmark on ABIDE fMRI dataset, which is one of the biggest public databases on autism. Five of the most widely used or best performing models was applied to this experiment. Our results show that all the tested models have the similar results, which means that it is probably the different evaluation pipelines rather than different machine learning models that leads to the variation of accuracy in the published literature. In the second year,  I tested the sMRI data of ABIDE, and tried to combine sMRI and fMRI to further improve the model performance.
+I am a second year PhD student at King's College London. Basically, my project is to develop an interpretable machine learning framework to uncover the early origions of neural developmental disorders. 
+
+In the first year of PhD, I did a benchmark on ABIDE fMRI dataset, which is one of the biggest public databases on autism. Five of the most widely used or best performing models was applied to this experiment. Our results show that all the tested models have the similar results, which means that it is probably the different evaluation pipelines rather than different machine learning models that leads to the variation of accuracy in the published literature. 
+
+In the second year,  I tested the sMRI data of ABIDE, and tried to combine sMRI and fMRI to further improve the model performance.
 
 {{< icon name="download" pack="fas" >}} Download my {{< staticref "uploads/demo_resume.pdf" "newtab" >}}resumé{{< /staticref >}}.
